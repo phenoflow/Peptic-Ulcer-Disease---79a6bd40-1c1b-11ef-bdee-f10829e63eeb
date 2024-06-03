@@ -44,8 +44,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: duodenal-peptic-ulcer-disease---primary/output
-  vpersonal-peptic-ulcer-disease---primary:
-    run: vpersonal-peptic-ulcer-disease---primary.cwl
+  peptic-ulcer-disease-history---primary:
+    run: peptic-ulcer-disease-history---primary.cwl
     out:
     - output
     in:
@@ -65,7 +65,7 @@ steps:
         source: inputModule6
       potentialCases:
         id: potentialCases
-        source: vpersonal-peptic-ulcer-disease---primary/output
+        source: peptic-ulcer-disease-history---primary/output
   peptic-ulcer-disease-inflammatory---primary:
     run: peptic-ulcer-disease-inflammatory---primary.cwl
     out:

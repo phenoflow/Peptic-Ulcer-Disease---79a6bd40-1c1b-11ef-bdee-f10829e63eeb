@@ -15,7 +15,7 @@ inputModule4:
   path: python/peptic-ulcer-disease-complication---primary.py
 inputModule5:
   class: File
-  path: python/vpersonal-peptic-ulcer-disease---primary.py
+  path: python/peptic-ulcer-disease-history---primary.py
 inputModule6:
   class: File
   path: python/peptic-ulcer-disease-specified---primary.py
